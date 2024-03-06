@@ -35,6 +35,8 @@ def with_files(files):
     for contents in file_contents:
         sys.stdout.write(contents)
 
+    print ("CHANGED!!!")
+
 def no_files():
     """Executes when no file(s) is/are specified."""
     try:
